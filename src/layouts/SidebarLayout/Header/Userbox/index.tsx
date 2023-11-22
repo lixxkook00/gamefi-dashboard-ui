@@ -60,9 +60,9 @@ const UserBoxDescription = styled(Typography)(
 
 function HeaderUserbox() {
   const user = {
-    name: 'Catherine Pike',
+    name: 'lixxkook',
     avatar: '/static/images/avatars/1.jpg',
-    jobtitle: 'Project Manager'
+    jobtitle: 'Bronze'
   };
 
   const ref = useRef<any>(null);
@@ -92,6 +92,7 @@ function HeaderUserbox() {
           <ExpandMoreTwoToneIcon sx={{ ml: 1 }} />
         </Hidden>
       </UserBoxButton>
+      
       <Popover
         anchorEl={ref.current}
         onClose={handleClose}
